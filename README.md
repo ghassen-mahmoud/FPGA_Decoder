@@ -6,14 +6,6 @@ This project implements a 3-to-8 decoder in VHDL and demonstrates the complete F
 
 The decoder receives a 3-bit input and activates one of eight outputs according to the input value. The outputs follow a one-hot encoding scheme, where only one output is active at a time.
 
-## Objectives
-
-* Learn the FPGA design workflow
-* Develop combinational logic circuits in VHDL
-* Perform functional verification using a testbench
-* Apply pin assignments through Quartus constraint files
-* Program and test the design on a Cyclone V FPGA board
-
 ## Project Structure
 
 ```text
@@ -108,9 +100,7 @@ The decoder was successfully:
 * Synthesized in Quartus Prime
 * Programmed on a Cyclone V FPGA
 * Verified using physical switches and LEDs
-## FPGA Board Test
 
-![FPGA Board](fpga_board.jpg)
 ## Learning Outcomes
 
 Through this project, the following FPGA concepts were explored:
