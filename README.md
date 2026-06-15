@@ -120,7 +120,3 @@ Through this project, the following FPGA concepts were explored:
 * Pin assignment management
 * Timing constraint generation
 * FPGA configuration and programming
-
-
-National School of Engineering of Carthage
-
