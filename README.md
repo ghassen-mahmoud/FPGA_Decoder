@@ -21,9 +21,9 @@ FPGA_Decoder/
 │
 ├── decoder.vhd
 ├── decoder_tb.vhd
-├── dec3to8u.qsf
-├── dec3to8u_pins.qsf
-├── dec3to8u.sdc
+├── decoder.qsf
+├── decoder_pins.qsf
+├── decoder.sdc
 ├── README.md
 ```
 
@@ -78,38 +78,6 @@ Simulation tools:
 * ModelSim
 * QuestaSim
 
-## Pin Assignments
-
-Pin assignments are stored in a separate constraint file:
-
-```text
-dec3to8u_pins.qsf
-```
-
-The file is included in the main Quartus project using:
-
-```tcl
-source dec3to8u_pins.qsf
-```
-
-Input switches are connected to:
-
-```text
-din[0] -> PIN_AB30
-din[1] -> PIN_Y27
-din[2] -> PIN_AB28
-```
-
-Output LEDs are connected to dedicated FPGA board LEDs.
-
-## Timing Constraints
-
-Timing constraints are defined in the SDC file generated using the Quartus Timing Analyzer.
-
-```text
-dec3to8u.sdc
-```
-
 ## FPGA Implementation
 
 Target platform:
@@ -153,11 +121,6 @@ Through this project, the following FPGA concepts were explored:
 * Timing constraint generation
 * FPGA configuration and programming
 
-## Author
-
-Ghassen Mahmoud
-
-Mechatronics Engineering Student
 
 National School of Engineering of Carthage
 
