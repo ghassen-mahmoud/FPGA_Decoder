@@ -108,7 +108,7 @@ The decoder was successfully:
 * Synthesized in Quartus Prime
 * Programmed on a Cyclone V FPGA
 * Verified using physical switches and LEDs
-
+(fpga.jpeg)
 ## Learning Outcomes
 
 Through this project, the following FPGA concepts were explored:
