@@ -110,7 +110,7 @@ The decoder was successfully:
 * Verified using physical switches and LEDs
 ## FPGA Board Test
 
-![FPGA Board](images/fpga_board.jpg)
+![FPGA Board](fpga_board.jpg)
 ## Learning Outcomes
 
 Through this project, the following FPGA concepts were explored:
